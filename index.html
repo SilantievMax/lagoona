@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lagoona</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <heaedr class="header">
-        <div class="container">
-            <div class="header-container">
+        <div class="container header-container">
+            <div class="header-container-blosk">
                 <div class="header-top">
                     <div class="header-left">
                         <a href="#" class="header-logo-link">
                             <img src="/img/logo.png" alt="" class="header-logo">
                         </a>
-                        <a href="tel:+74953225448">+7 495 322 54 48</a>
+                        <a class="header-logo-phone" href="tel:+74953225448">+7 495 322 54 48</a>
                     </div>
                     <div class="header-right">
                         <object class="header-container-icon" data="/svg/Vector.svg" type="image/svg+xml"></object>
@@ -47,9 +49,10 @@
                             </ul>
                         </nav>
                     </div>
+                    <span class="header-line"></span>
                     <div class="header-nav-right">
                         <a href="#" class="btn">Хочу тур</a>
-                        <a href="#" class="btn">Обратный звонок</a>
+                        <a href="#" class="btn header-right">Обратный звонок</a>
                     </div>
                 </div>
             </div>
@@ -59,32 +62,34 @@
         <section class="section-special">
             <div class="container">
                 <h1 class="heading">Спецпредложения</h1>
-                <div class="section-special-left">
-                    <div class="section-special-left-card">
-                        <h2 class="section-special-left-heading">Мальдивские острова</h2>
-                        <p class="section-special-left-price">от 55 000 р</p>
-                        <span class="section-special-left-detailed">
-                            Подробние
-                            <object data="/svg/Rectangle 2.svg" type="image/svg+xml"></object>
-                        </span>
+                <div class="section-special-group">
+                    <div class="section-special-left">
+                        <div class="section-special-left-card">
+                            <h2 class="section-special-left-heading">Мальдивские острова</h2>
+                            <p class="section-special-left-price">от 55 000 р</p>
+                            <span class="section-special-left-detailed">
+                                Подробние
+                                <object data="/svg/Rectangle 2.svg" type="image/svg+xml"></object>
+                            </span>
+                        </div>
+                        <div class="section-special-left-card">
+                            <h2 class="section-special-left-heading">Горящий тур на остров Крит</h2>
+                            <p class="section-special-left-price">от 33 000 р</p>
+                            <span class="section-special-left-detailed">
+                                Подробние
+                                <object data="/svg/Rectangle 2.svg" type="image/svg+xml"></object>
+                            </span>
+                        </div>
                     </div>
-                    <div class="section-special-left-card">
-                        <h2 class="section-special-left-heading">Горящий тур на остров Крит</h2>
-                        <p class="section-special-left-price">от 33 000 р</p>
-                        <span class="section-special-left-detailed">
-                            Подробние
-                            <object data="/svg/Rectangle 2.svg" type="image/svg+xml"></object>
-                        </span>
-                    </div>
-                </div>
-                <div class="section-special-right">
-                    <div class="section-special-right-card">
-                        <h2 class="section-special-right-heading">Номера категории люкс</h2>
-                        <p class="section-special-right-price">от 5000 р</p>
-                        <span class="section-special-right-detailed">
-                            Подробние
-                            <object data="/svg/Rectangle 2.svg" type="image/svg+xml"></object>
-                        </span>
+                    <div class="section-special-right">
+                        <div class="section-special-right-card">
+                            <h2 class="section-special-right-heading">Номера категории люкс</h2>
+                            <p class="section-special-right-price">от 5000 р</p>
+                            <span class="section-special-left-detailed">
+                                Подробние
+                                <object data="/svg/Rectangle 2.svg" type="image/svg+xml"></object>
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -100,6 +105,7 @@
                 <h1 class="heading">Услуги</h1>
                 <ul class="section-services-list">
                     <li class="section-services-item">
+                        <div class="section-services-img"></div>
                         <span class="section-services-heading">
                             Эксклюзивное обслуживание
                             <object class="section-services-icon" data="/svg/Rectangle 2.svg" type="image/svg+xml"></object>
@@ -107,6 +113,7 @@
                         <p class="section-services-paragraph">Равным образом постоянный количественный рост и сфера нашей активности</p>
                     </li>
                     <li class="section-services-item">
+                        <div class="section-services-img"></div>
                         <span class="section-services-heading">
                             Аренда банкетных залов
                             <object class="section-services-icon" data="/svg/Rectangle 2.svg" type="image/svg+xml"></object>
@@ -114,6 +121,7 @@
                         <p class="section-services-paragraph">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.</p>
                     </li>
                     <li class="section-services-item">
+                        <div class="section-services-img"></div>
                         <span class="section-services-heading">
                             Сауны, бассейны, бани, фитнес-залы
                             <object class="section-services-icon" data="/svg/Rectangle 2.svg" type="image/svg+xml"></object>
@@ -121,6 +129,7 @@
                         <p class="section-services-paragraph">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
                     </li>
                     <li class="section-services-item">
+                        <div class="section-services-img"></div>
                         <span class="section-services-heading">
                             Охраняемые автомобильные стоянки
                             <object class="section-services-icon" data="/svg/Rectangle 2.svg" type="image/svg+xml"></object>
@@ -176,11 +185,11 @@
                     <li class="section-placement-item">
                         <div class="section placement-header">
                             от <strong>4 698 p / ночь</strong>
-                            <img src="/img/Stars-color.png" alt="Рейтинг фильма 4 из 5">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="Рейтинг фильма 4 из 5">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars.png" alt="">
                         </div>
                         <h3 class="section-placement-heading-title">Lagoona son típicas</h3>
                         <p class="section-placement-heading-city">Барселона, Испания</p>
@@ -189,11 +198,11 @@
                     <li class="section-placement-item">
                         <div class="section placement-header">
                             от <strong>5 148 р / ночь</strong>
-                            <img src="/img/Stars-color.png" alt="Рейтинг фильма 4 из 5">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="Рейтинг фильма 4 из 5">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars.png" alt="">
                         </div>
                         <h3 class="section-placement-heading-title">Lagoona son típicas</h3>
                         <p class="section-placement-heading-city">Барселона, Испания</p>
@@ -202,11 +211,11 @@
                     <li class="section-placement-item">
                         <div class="section placement-header">
                             от <strong>6 254 р / ночь</strong>
-                            <img src="/img/Stars-color.png" alt="Рейтинг фильма 4 из 5">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="Рейтинг фильма 4 из 5">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
                         </div>
                         <h3 class="section-placement-heading-title">Lagoona de la guerra</h3>
                         <p class="section-placement-heading-city">Барселона, Испания</p>
@@ -215,11 +224,11 @@
                     <li class="section-placement-item">
                         <div class="section placement-header">
                             от <strong>6 320 р / ночь</strong>
-                            <img src="/img/Stars-color.png" alt="Рейтинг фильма 4 из 5">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="Рейтинг фильма 4 из 5">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
                         </div>
                         <h3 class="section-placement-heading-title">Lagoona mentira piadosa</h3>
                         <p class="section-placement-heading-city">Барселона, Испания</p>
@@ -228,11 +237,11 @@
                     <li class="section-placement-item">
                         <div class="section placement-header">
                             от <strong>6 457 р / ночь</strong>
-                            <img src="/img/Stars-color.png" alt="Рейтинг фильма 4 из 5">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="Рейтинг фильма 4 из 5">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars.png" alt="">
                         </div>
                         <h3 class="section-placement-heading-title">Lagoona empujar la creatividad</h3>
                         <p class="section-placement-heading-city">Барселона, Испания</p>
@@ -241,11 +250,11 @@
                     <li class="section-placement-item">
                         <div class="section placement-header">
                             от <strong>6 320 р / ночь</strong>
-                            <img src="/img/Stars-color.png" alt="Рейтинг фильма 4 из 5">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="Рейтинг фильма 4 из 5">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars.png" alt="">
                         </div>
                         <h3 class="section-placement-heading-title">Lagoona el retorno</h3>
                         <p class="section-placement-heading-city">Барселона, Испания</p>
@@ -254,11 +263,11 @@
                     <li class="section-placement-item">
                         <div class="section placement-header">
                             от <strong>6 505 р / ночь</strong>
-                            <img src="/img/Stars-color.png" alt="Рейтинг фильма 4 из 5">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="Рейтинг фильма 4 из 5">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
                         </div>
                         <h3 class="section-placement-heading-title">Lagoona mentira piadosa</h3>
                         <p class="section-placement-heading-city">Барселона, Испания</p>
@@ -267,11 +276,11 @@
                     <li class="section-placement-item">
                         <div class="section placement-header">
                             от <strong>6 824 р / ночь</strong>
-                            <img src="/img/Stars-color.png" alt="Рейтинг фильма 4 из 5">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars-color.png" alt="">
-                            <img src="/img/Stars.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="Рейтинг фильма 4 из 5">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars-color.png" alt="">
+                            <img aria-label="presertation" src="/img/Stars.png" alt="">
                         </div>
                         <h3 class="section-placement-heading-title">Lagoona suerte siguió siempre</h3>
                         <p class="section-placement-heading-city">Барселона, Испания</p>

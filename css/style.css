@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background: #F1F1F1;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.btn {
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+    color: #CC9933;
+    padding: 13px 20px;
+}
+.heading {
+    padding-left: 40px;
+    color: #333;
+    font-size: 40px;
+    font-weight: 400;
+}
+/* header */
+.header-container {
+    margin-top: 30px;
+}
+.header-top, .header-left {
+    display: flex;
+    align-items: center;
+}
+.header-top {
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.header-logo {
+    width: 261px;
+    height: 54px;
+}
+.header-logo-phone {
+    padding-left: 40px;
+    color: #666;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+.header-bottom, .header-nav-list {
+    display: flex;
+    align-items: center;
+}
+.header-bottom {
+    height: 70px;
+    border-radius: 15px;
+    justify-content: space-around;
+    background-color: #fff;
+}
+.header-nav-item:not(:last-child) {
+    padding-right: 45px;
+}
+.header-nav-link {
+    color: #666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    font-style: normal;
+}
+.header-line {
+    background-color: #E1E1E1;
+    height: 50px;
+    width: 1px;
+}
+.header-right {
+    cursor: pointer;
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #CC9933;
+}
+/* section-special */
+.section-special-group {
+    display: flex;
+    justify-content: space-between;
+}
+.section-special-left-card {
+    width: 573px;
+    height: 258px;
+    border-radius: 15px;
+    position: relative;
+}
+.section-special-left-card:not(:last-child) {
+    margin-bottom: 23px;
+}
+.section-special-right-card {
+    width: 573px;
+    height: 100%;
+    border-radius: 15px;
+    position: relative;
+}
+.section-special-left-heading {
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 40px;
+    max-width: 80%;
+}
+.section-special-left-price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+.section-special-left-detailed {
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFCC66;
+    display: flex;
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+}
+.section-special-left-detailed object {
+    margin-left: 4px;
+}
+.section-special-right-heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 211px;
+    padding-left: 40px;
+}
+.section-special-right-price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+/* section-about */
+.section-about-paragraph {
+    width: 888px;
+    font-size: 16px;
+    line-height: 200%;
+    font-weight: 400;
+    font-style: normal;
+}
+/* section-services */
+.section-services-img {
+    width: 100%;
+    height: 165px;
+    border-radius: 15px 15px 0 0;
+}
+.section-services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-services-item {
+    width: 573px;
+    min-height: 330px;
+    border-radius: 15px;
+    margin-bottom: 23px;
+    background-color: #fff;
+}
+.section-services-heading {
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+    color: #CC9933;
+    display: flex;
+    padding-top: 26px;
+    padding-left: 45px;
+}
+.section-services-heading object {
+    margin-left: 4px;
+}
+.section-services-paragraph {
+    width: 80%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000000;
+    padding-top: 0;
+    padding-left: 45px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+.section-special-right-card, .section-special-left-card {
+    background-color: blue;
+}
+.section-services-img {
+    background-color: rgb(0, 204, 255);
+}
