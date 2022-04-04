@@ -1,8 +1,45 @@
+@font-face {
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Muller"),
+         url("../fonts/MullerLight.woff2") format("woff2"),
+         url("../fonts/MullerLight.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Muller"),
+         url("../fonts/MullerRegular.woff2") format("woff2"),
+         url("../fonts/MullerRegular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Muller"),
+         url("../fonts/MullerMedium.woff2") format("woff2"),
+         url("../fonts/MullerMedium.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Muller"),
+         url("../fonts/MullerBold.woff2") format("woff2"),
+         url("../fonts/MullerBold.woff") format("woff");
+  }
+
 * {
     box-sizing: border-box;
 }
 a {
     text-decoration: none;
+}
+h1,h2,h3,h4,h5 {
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 ul {
     margin: 0;
@@ -10,9 +47,8 @@ ul {
     list-style: none;
 }
 html {
-    font-family: sans-serif;
+    font-family: 'Muller', sans-serif;
 }
-
 body {
     background: #F1F1F1;
 }
@@ -39,6 +75,7 @@ body {
     font-size: 40px;
     font-weight: 400;
 }
+
 /* header */
 .header-container {
     margin-top: 30px;
@@ -87,7 +124,7 @@ body {
     height: 50px;
     width: 1px;
 }
-.header-right {
+.header-right-btn {
     cursor: pointer;
     margin-left: 30px;
     font-style: normal;
@@ -96,6 +133,10 @@ body {
     line-height: 16px;
     color: #CC9933;
 }
+.header-container-icon {
+    margin-right: 7px;
+}
+
 /* section-special */
 .section-special-group {
     display: flex;
@@ -106,6 +147,18 @@ body {
     height: 258px;
     border-radius: 15px;
     position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.section-special-left-card-img1 {
+    background-image: url(../img/Rectangle1.jpg);
+}
+.section-special-left-card-img2 {
+    background-image: url(../img/Rectangle2.jpg);
+}
+.section-special-left-card-img3 {
+    background-image: url(../img/Rectangle3.jpg);
 }
 .section-special-left-card:not(:last-child) {
     margin-bottom: 23px;
@@ -115,6 +168,9 @@ body {
     height: 100%;
     border-radius: 15px;
     position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .section-special-left-heading {
     color: #fff;
@@ -183,6 +239,21 @@ body {
     width: 100%;
     height: 165px;
     border-radius: 15px 15px 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.section-services-img1{
+    background-image: url(../img/10.jpg)
+}
+.section-services-img2{
+    background-image: url(../img/15.jpg)
+}
+.section-services-img3{
+    background-image: url(../img/12.jpg)
+}
+.section-services-img4{
+    background-image: url(../img/16.jpg)
 }
 .section-services-list {
     display: flex;
@@ -220,6 +291,135 @@ body {
     padding-top: 0;
     padding-left: 45px;
     padding-bottom: 50px;
+    margin: 0;
+}
+
+/* section-advantages */
+.section-advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-advantages-item {
+    width: 275px;
+    min-height: 275px;
+    border-radius: 15px;
+    background-color: #fff;
+    margin-bottom: 23px;
+}
+.section-advantages-icon {
+    padding-top: 40px;
+    padding-left: 45px;
+}
+.section-advantages-paragraph {
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 45px;
+    padding-right: 42px;
+    padding-bottom: 41px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+}
+/* section-placement */
+.section-placement-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-placement-item,.section-placement-item-further {
+    width: 374px;
+    height: 440px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-bottom: 23px;
+}
+.section-placement-img {
+    width: 100%;
+    height: 217px;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 36px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.section-placement-img1 {
+    background-image: url(../img/placement1.jpg)
+}
+.section-placement-img2 {
+    background-image: url(../img/placement2.jpg)
+}
+.section-placement-img3 {
+    background-image: url(../img/placement3.jpg)
+}
+.section-placement-img4 {
+    background-image: url(../img/placement4.jpg)
+}
+.section-placement-img5 {
+    background-image: url(../img/placement5.jpg)
+}
+.section-placement-img6 {
+    background-image: url(../img/placement6.jpg)
+}
+.section-placement-img7 {
+    background-image: url(../img/placement7.jpg)
+}
+.section-placement-img8 {
+    background-image: url(../img/placement8.jpg)
+}
+.section-placement-header {
+    padding-left: 45px;
+    color: #999;
+}
+.section-placement-header strong {
+    font-size: 20px;
+    line-height: 20px;
+    padding-right: 45px;
+    color: #000;
+}
+.section-placement-heading-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0;
+    padding-top: 16px;
+    padding-left: 45px;
+}
+.section-placement-heading-city {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #999999;
+    margin: 0;
+    padding-top: 16px;
+    padding-left: 45px;
+}
+.section-placement-btn {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.section-placement-item-further {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/placement9.jpg)
+}
+.section-placement-heading-further {
+    cursor: pointer;
+    position: absolute;
+    bottom: 27px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+    color: #FFFFFF;
+    display: flex;
+}
+.section-placement-heading-further object {
+    margin-left: 4px;
 }
 
 
@@ -227,9 +427,11 @@ body {
 
 
 
-.section-special-right-card, .section-special-left-card {
-    background-color: blue;
-}
-.section-services-img {
+
+.section-special-right-card, 
+.section-special-left-card, 
+.section-services-, 
+.section-placement-img, 
+.section-placement-item-further {
     background-color: rgb(0, 204, 255);
 }
