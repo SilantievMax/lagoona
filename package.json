@@ -1,0 +1,24 @@
+{
+  "name": "lagoona",
+  "version": "1.0.0",
+  "description": "Это одностраничный сайт сделан по макету из [figma](https://www.figma.com/file/tjkkfkHDXlGscyVbS3emln/Lagoona?node-id=0%3A1), не одоптирован под разные устройства. Так же присутствует анимация и форма отправляет данные на сервер.",
+  "main": "index.js",
+  "homepage": "https://silantievmax.github.io/lagoona",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilantievMax/lagoona.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SilantievMax/lagoona/issues"
+  },
+  "homepage": "https://github.com/SilantievMax/lagoona#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
